@@ -1,13 +1,9 @@
-import Products from "./components/Products";
+// import Products from "./components/Products";
 
-export const IntialState = {
-Product: [],
-Total: 0
+export const intialState = {
+products: [],
+total: 0
 };
-
-
-
-
 
 const ShopReducer = (state , action) => {
 
@@ -17,7 +13,7 @@ const ShopReducer = (state , action) => {
     case "ADD_TO_CART":
         return {
             ...state,
-            Products:payload.Products,
+            products:payload.products,
         };
 
         default:

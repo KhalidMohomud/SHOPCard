@@ -1,6 +1,9 @@
 import React from 'react'
 
 const Product = ({product}) => {
+     const Handlechange =()=> {
+       console.log("is working");
+     }
   return (
      <div  className='cards'
      style={{
@@ -17,7 +20,7 @@ const Product = ({product}) => {
             <span>{product.price}</span>
         </div>
 
-         <button className='btn btn-primary'>+</button>
+         <button className='btn btn-primary' onClick={Handlechange}>+</button>
       
 
      </div>
