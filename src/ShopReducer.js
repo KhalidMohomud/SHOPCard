@@ -15,6 +15,11 @@ const ShopReducer = (state , action) => {
             ...state,
             products:payload.products,
         };
+        case "REMOVE_FROM_CART":
+            return {
+                ...state,
+                products:payload.products,
+            };
 
         default:
         throw  new console.error("UNknows redures");
