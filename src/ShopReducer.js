@@ -20,6 +20,11 @@ const ShopReducer = (state , action) => {
                 ...state,
                 products:payload.products,
             };
+            case "Calcute_price":
+                return {
+                    ...state,
+                    total:payload,
+                };
 
         default:
         throw  new console.error("UNknows redures");

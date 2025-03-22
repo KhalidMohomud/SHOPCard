@@ -1,10 +1,13 @@
 import React from 'react'
+import CardProducts from '../CardProducts'
+import Payments from '../Payments'
 
-const Cart = ({SetCart}) => {
-     SetCart(60);
+const Cart = () => {
+   
   return (
-    <div>
-        <h2>pag . .... card</h2>
+    <div className='Container-products '>
+        <CardProducts/>
+        <Payments/>
     </div>
   )
 }

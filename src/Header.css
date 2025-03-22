@@ -104,15 +104,148 @@ body{
      background-color: #1877c9; 
     cursor: pointer;
 }
-.btn .btn-secondary{
+ .btn-secondary{
     background-color:red;
 }
- .btn-primary{
+.Container-products{
+    position: relative;
+    margin-left: -180px;
+    margin-top: 20px;
+   
+    box-shadow: 0 0 010px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns:  60% 30% 30%;
+    border-radius: 10px;
+     grid-gap: 20px;
+    padding: 40px;
+    place-items: center;
+    width: 660px;
     
-    background-color: #1877c9;
+      
+     
+}
+
+.Cart-products{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 95%;
+    padding: 20px;
+    border-right:  1px solid #ccc;
+}
+.cart-pro{
+    padding: 10px;
+    width:95% ;
+      display: grid;
+      grid-template-columns: 3fr 1fr 1fr;
+      border-top: 1px  solid #ccc;
+     place-items: center;
+}
+.cart-pro img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.cart-pro span{
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
+.cart-title-umg{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+
+}
+.cart-title-umg *{
+       padding: 0 10px;
+}
+.delete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+.total{
+   position: relative;
+   margin-left: 100px;
+    border-top:  1px solid #ccc;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 
 
+.payments-cards{
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 0;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+}
 
+.form-control{
+    width: 72%;
+    margin: 0 12px;
+    padding: 20px;
+    border: 1px solid  #ccc ;
+    border-radius: 15px;
+    font-size: 20px;
+}
 
+button {
+   width: 94%;
+   margin: 10px 12px;
+   padding: 20px;
+   background-color: #1877c9;
+   border: 0;
+   color: white;
+   border-radius: 15px;
+   font-size: 20px;
+   cursor: pointer;
+
+  }
+  .payments-cards:hover ,
+  .payments-cards.select {
+     background-color: #acbdcc;
+
+  }
+
+/* Payments.css */
+/* .payments-cards {
+    margin: 10px 0;
+  } */
+  
+  /* .pay {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+  } */
+  
+  /* h2 {
+    color: #333;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+    color: #555;
+  } */
+  
+  /* input {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  } */
+  
+ 
+  
+
+  

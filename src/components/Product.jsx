@@ -25,7 +25,7 @@ const Product = ({product}) => {
               }, [products]);
      const Handlechange =()=> {
           
-        deleteFromCart(product)
+       
         if(isInCard){
             deleteFromCart(product)
             
@@ -58,7 +58,7 @@ const Product = ({product}) => {
              </button> */}
 
 <button
-        className={`btn ${isInCard ? 'btn-primary' : 'btn-secondary'}`}
+        className={`btn ${isInCard ? 'btn-secondary' : 'btn-primary'}`}
         onClick={Handlechange}
       >
         {isInCard ? '-' : '+'}

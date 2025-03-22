@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import useShop from '../ShopContext'
 
 const Header = () => {
-        const {products}       =useShop()
+        const {products} = useShop()
   return (
     <div className='menus'>
 <Link  to='/' className='logo'> Khaalid </Link>
